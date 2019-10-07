@@ -5,7 +5,6 @@ void menu() {
   fill(0);
   rect(width/2, height*27.5/100, width/8, height/13);
   rect(width/2, height*38.75/100, width/8, height/13);
-  //rect(width/2, height*50/100, width/8, height/13);
   rect(width/2.15, height*50/100, width/18, height/13);
   rect(width/1.87, height*50/100, width/18, height/13);
   rect(width/2.15, height*61.25/100, width/18, height/13);
