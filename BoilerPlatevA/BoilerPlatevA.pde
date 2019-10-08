@@ -148,11 +148,6 @@ void draw () {
   if (menuOpen == true) {
     menu();
   }
-
-  if (mouseX > width/18.3 && mouseX < width/1.057 && mouseY < height) {
-    fill(#00FCEE);
-    rect(mouseX, mouseY, 25, 25);
-  }
 }
 
 void keyPressed() {
