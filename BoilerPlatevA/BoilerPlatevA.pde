@@ -121,17 +121,16 @@ void draw () {
   if (ballMoveX <= 0) {
     ballMoveX = width/2;
     ballMoveY = height/2;
-    leftPoints = leftPoints + 1;
+    rightPoints = rightPoints + 1;
   }
   if (ballMoveX >= width-ballSize/2) {
     ballMoveX = width/2;
     ballMoveY = height/2;
-    rightPoints = rightPoints + 1;
+    leftPoints = leftPoints + 1;
   }
 
 
   //bounce
-
   if (ballMoveX > width/18.3 && ballMoveX < width/1.057) {
     if (ballMoveX <= leftPaddleMoveX+paddleWidth+ballSize/2) {
       if (ballMoveY >= leftPaddleMoveY && ballMoveY <= leftPaddleMoveY+paddleHeight) {
